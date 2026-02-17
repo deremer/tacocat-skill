@@ -1,3 +1,7 @@
+<p align="left">
+  <img src="tacocat.svg" alt="Tacocat logo — an orange cat sitting in a taco" width="200">
+</p>
+
 # tacocat 🐱
 
 A Claude Code skill that does absolutely nothing useful.
