@@ -48,6 +48,8 @@
   <rect x="162" y="125" rx="2" ry="2" width="18" height="14" fill="#7B68EE" opacity="0.6"/>
   <!-- Cat body (loaf shape, lying across keyboard) -->
   <ellipse cx="150" cy="95" rx="70" ry="32" fill="#FF8C00"/>
+  <!-- White chest/belly patch -->
+  <ellipse cx="130" cy="105" rx="30" ry="16" fill="white" opacity="0.9"/>
   <!-- Tabby stripes on body -->
   <path d="M100 80 Q105 75 110 82" fill="none" stroke="#D2691E" stroke-width="2" opacity="0.4"/>
   <path d="M120 78 Q125 72 130 79" fill="none" stroke="#D2691E" stroke-width="2" opacity="0.4"/>
@@ -56,6 +58,8 @@
   <path d="M180 80 Q185 75 190 82" fill="none" stroke="#D2691E" stroke-width="2" opacity="0.4"/>
   <!-- Cat head -->
   <circle cx="90" cy="82" r="25" fill="#FF8C00"/>
+  <!-- White chin/muzzle -->
+  <ellipse cx="90" cy="90" rx="14" ry="10" fill="white"/>
   <!-- Left ear -->
   <polygon points="72,66 64,42 82,58" fill="#FF8C00" stroke="#D2691E" stroke-width="1.5"/>
   <polygon points="74,64 68,47 80,58" fill="#FFB6C1"/>
@@ -76,15 +80,19 @@
   <line x1="125" y1="80" x2="104" y2="83" stroke="#D2691E" stroke-width="1"/>
   <line x1="127" y1="86" x2="105" y2="86" stroke="#D2691E" stroke-width="1"/>
   <line x1="124" y1="92" x2="104" y2="89" stroke="#D2691E" stroke-width="1"/>
-  <!-- Front paw tucked under -->
-  <ellipse cx="72" cy="105" rx="10" ry="6" fill="#FF8C00" stroke="#D2691E" stroke-width="1"/>
+  <!-- Front paw (white) -->
+  <ellipse cx="72" cy="105" rx="10" ry="6" fill="white" stroke="#ddd" stroke-width="1"/>
+  <!-- Back paw peeking out (white) -->
+  <ellipse cx="205" cy="112" rx="8" ry="5" fill="white" stroke="#ddd" stroke-width="1"/>
   <!-- Tail curling up from the right -->
   <path d="M218 90 Q240 85 250 65 Q255 50 245 40" fill="none" stroke="#FF8C00" stroke-width="8" stroke-linecap="round"/>
   <path d="M218 90 Q240 85 250 65 Q255 50 245 40" fill="none" stroke="#D2691E" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <!-- Tail tip (white) -->
+  <path d="M248 46 Q252 42 245 40" fill="none" stroke="white" stroke-width="6" stroke-linecap="round"/>
   <!-- Tail stripes -->
   <path d="M232 80 Q235 76 238 81" fill="none" stroke="#D2691E" stroke-width="1.5" opacity="0.4"/>
   <path d="M242 68 Q245 64 248 69" fill="none" stroke="#D2691E" stroke-width="1.5" opacity="0.4"/>
-  <!-- Typed gibberish on screen hint (floating text) -->
+  <!-- Typed gibberish floating above -->
   <text x="105" y="25" font-family="monospace" font-size="11" fill="#7B68EE" opacity="0.8">asdfghjkl;'</text>
   <!-- "Z" sleep indicators -->
   <text x="58" y="52" font-family="sans-serif" font-size="10" fill="#888" font-weight="bold">z</text>
